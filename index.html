@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/icon/nm.png" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- hamburger -->
+    <link href="dist/css/hamburgers.css" rel="stylesheet" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Aos animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body id="home">
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <h1>House</h1>
+          </div>
+          <nav class="menu">
+            <ul>
+              <div class="title">
+                <h1>House</h1>
+                <h3>Overview</h3>
+              </div>
+              <li>
+                <i class="fa-solid fa-house"></i>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-house-circle-check"></i
+                ><a href="#our-house">Our House</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-address-card"></i>
+                <a href="#about">About Us</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-gear"></i>
+                <a href="#our-work">Services</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-thumbs-up"></i>
+                <a href="#feedback">Feedback</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="ourApps">
+            <button class="ourApps-btn">Our Apps</button>
+
+            <!-- Hamburger Menu -->
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <!-- hero -->
+        <div class="hero">
+          <h1 data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            Find Your Dream <br />
+            House With Us
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1500">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+            quibusdam quaerat quae ipsa accusamus, praesentium voluptates
+            exercitationem amet? Numquam, totam?
+          </p>
+          <button
+            class="btn-hero"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1500"
+          >
+            Find Your House
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- section our house -->
+    <section id="our-house">
+      <div class="our-house">
+        <div class="container">
+          <h1 class="title-our-house" data-aos="fade-up" data-aos-delay="400">
+            Most Viewed
+          </h1>
+          <p
+            class="title-our-house-desc"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+            nobis!
+          </p>
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                data-aos="flip-left"
+                data-aos-delay="400"
+                data-aos-duration="2000"
+              >
+                <img src="./assets/images/house-1.jpg" alt="image-1" />
+                <div class="house-desc">
+                  <p>Ujung Berung Street, Bandung City, West Java</p>
+                  <h2>Villa Home 1</h2>
+                  <h3>Rp.500.000</h3>
+                </div>
+              </div>
+              <div
+                class="swiper-slide"
+                data-aos="flip-left"
+                data-aos-delay="400"
+                data-aos-duration="2000"
+              >
+                <img src="./assets/images/house-2.jpg" alt="image-2" />
+                <div class="house-desc">
+                  <p>Ujung Berung Street, Bandung City, West Java</p>
+                  <h2>Villa Home 2</h2>
+                  <h3>Rp.500.000</h3>
+                </div>
+              </div>
+              <div
+                class="swiper-slide"
+                data-aos="flip-left"
+                data-aos-delay="400"
+                data-aos-duration="2000"
+              >
+                <img src="./assets/images/house-3.jpg" alt="image-3" />
+                <div class="house-desc">
+                  <p>Ujung Berung Street, Bandung City, West Java</p>
+                  <h2>Villa Home 3</h2>
+                  <h3>Rp.500.000</h3>
+                </div>
+              </div>
+              <div
+                class="swiper-slide"
+                data-aos="flip-left"
+                data-aos-delay="400"
+                data-aos-duration="2000"
+              >
+                <img src="./assets/images/house-4.jpg" alt="image-4" />
+                <div class="house-desc">
+                  <p>Ujung Berung Street, Bandung City, West Java</p>
+                  <h2>Villa Home 4</h2>
+                  <h3>Rp.500.000</h3>
+                </div>
+              </div>
+              <div
+                class="swiper-slide"
+                data-aos="flip-left"
+                data-aos-delay="400"
+                data-aos-duration="2000"
+              >
+                <img src="./assets/images/house-5.jpg" alt="image-5" />
+                <div class="house-desc">
+                  <p>Ujung Berung Street, Bandung City, West Java</p>
+                  <h2>Villa Home 5</h2>
+                  <h3>Rp.500.000</h3>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="btn-our-house">
+            <button>Lihat Selengkapnya</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section our house -->
+
+    <!-- section about us -->
+
+    <section id="about">
+      <div class="about">
+        <div class="container">
+          <div class="about-box">
+            <div class="box" data-aos="fade-right" data-aos-delay="400">
+              <img src="./assets/images/about-img.jpg" alt="box-img-1" />
+            </div>
+            <div class="box" data-aos="fade-left" data-aos-delay="400">
+              <h1>
+                Find Your Dream <br />
+                House With Us
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias similique iure perspiciatis vel adipisci incidunt,
+                fugiat expedita voluptatum, pariatur maxime nesciunt quam? Modi,
+                tempore vero!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta,
+                placeat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section about us -->
+
+    <!-- section our work -->
+    <section id="our-work">
+      <div class="our-work">
+        <div class="our-work-container">
+          <div class="our-work-title">
+            <h2 data-aos="fade-up" data-aos-delay="400">Our Work in 3 Steps</h2>
+            <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+              Lorem ipsum dolor sit, amet consectetur adipisicing.
+            </p>
+          </div>
+
+          <div class="card-wrap">
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+            >
+              <span class="icon">🏠</span>
+              <h3>Research Phase</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                recusandae ad asperiores beatae, atque quo!
+              </p>
+            </div>
+
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1500"
+            >
+              <span class="icon">🤝</span>
+              <h3>Make A Deal</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                recusandae ad asperiores beatae, atque quo!
+              </p>
+            </div>
+
+            <div
+              class="card"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="2000"
+            >
+              <span class="icon">💰</span>
+              <h3>Determine The Prices</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                recusandae ad asperiores beatae, atque quo!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section our work -->
+
+    <!-- section recover -->
+    <section id="recover">
+      <div class="recover">
+        <div class="container">
+          <div class="recover-box">
+            <div class="box">
+              <h1>We Are Also Available In The Apps</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                corporis.
+              </p>
+
+              <div>
+                <img src="./assets/images/playstore.png" alt="playstore" />
+                <img src="./assets/images/ios-app.png" alt="ios-app" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section recover -->
+
+    <!-- section feedback -->
+    <section id="feedback">
+      <div class="feedback">
+        <div class="container">
+          <h1 data-aos="fade-up" data-aos-delay="400">
+            Feedback<br />
+            From Our Customer
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+            odio!
+          </p>
+          <div class="feedback-box">
+            <div
+              class="box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1000"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-1.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 1</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="1500"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-2.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 2</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="2000"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-3.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 3</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="box"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="2500"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-1.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 4</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-2.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 5</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-3.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 6</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-1.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 7</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-2.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 8</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-3.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 9</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-1.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 10</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-2.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 11</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus exercitationem architecto aliquam maiores odio unde
+                corporis odit sapiente error incidunt facilis temporibus nam
+                debitis qui, id inventore repellat dolor consequatur.
+              </p>
+              <div class="people">
+                <img src="./assets/images/people-3.jpg" alt="feedback-people" />
+                <div>
+                  <h3>People 12</h3>
+                  <p>Fullstack Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="load-more">
+            <button
+              class="load-more-btn"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="3000"
+            >
+              Load More <i class="fa-solid fa-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section feedback -->
+
+    <!-- section footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-column">
+          <h3>House</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <div class="footer-social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#our-house">Our House</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#our-work">Services</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Our Apps</a></li>
+            <li><a href="#">Brochure</a></li>
+          </ul>
+        </div>
+        <div class="footer-column footer-contact-info">
+          <h3>Contact Us</h3>
+          <p><i class="fa-solid fa-envelope"></i> nm-house-villa@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> (022) - 1234 - 5678</p>
+          <p>
+            <i class="fa-solid fa-map-marker-alt"></i> Jalan Ujung Berung, No.
+            008,<br />
+            Kota Bandung, Jawa Barat
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- section footer -->
+
+    <!-- section copyright -->
+    <div class="copyright">
+      <p>
+        &copy; Copyright 2024 by <span>Ngoding Mastery</span>, All Rights
+        Reserved.
+      </p>
+    </div>
+    <!-- section copyright -->
+
+    <!-- Include Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link to js -->
+    <script src="./dist/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          575: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+
+    <!-- Aos Animate -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
